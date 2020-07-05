@@ -1,0 +1,282 @@
+[
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Eren",
+    "last": "Öztonga"
+    },
+    "location": {
+    "street": {
+    "number": 2042,
+    "name": "Kushimoto Sk"
+    },
+    "city": "Kastamonu",
+    "state": "Sinop",
+    "country": "Turkey",
+    "postcode": 63931,
+    "coordinates": {
+    "latitude": "74.8046",
+    "longitude": "-18.0009"
+    },
+    "timezone": {
+    "offset": "+5:30",
+    "description": "Bombay, Calcutta, Madras, New Delhi"
+    }
+    },
+    "email": "eren.oztonga@example.com",
+    "login": {
+    "uuid": "5fb337b9-2e80-4c3a-8afe-d193c32d513b",
+    "username": "yellowtiger869",
+    "password": "nevada",
+    "salt": "i4FdWnQX",
+    "md5": "938135d7593140328bcb31f079681d1f",
+    "sha1": "222905250b4a0869125cb047763490de96b0f3d4",
+    "sha256": "45e45f28294cd7f64d1d1b38a5dc816e4b15fd84dd19e850b2b2764d91649991"
+    },
+    "dob": {
+    "date": "1949-06-15T14:56:26.540Z",
+    "age": 71
+    },
+    "registered": {
+    "date": "2012-03-17T09:41:25.048Z",
+    "age": 8
+    },
+    "phone": "(721)-830-1674",
+    "cell": "(217)-815-4280",
+    "id": {
+    "name": "",
+    "value": null
+    },
+    "picture": {
+    "large": "https://randomuser.me/api/portraits/men/23.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/23.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/23.jpg"
+    },
+    "nat": "TR"
+    },
+    {
+    "gender": "male",
+    "name": {
+    "title": "Mr",
+    "first": "Natã",
+    "last": "Porto"
+    },
+    "location": {
+    "street": {
+    "number": 8189,
+    "name": "Rua João Xxiii"
+    },
+    "city": "Bento Gonçalves",
+    "state": "Pernambuco",
+    "country": "Brazil",
+    "postcode": 97039,
+    "coordinates": {
+    "latitude": "46.0050",
+    "longitude": "-20.9282"
+    },
+    "timezone": {
+    "offset": "+5:45",
+    "description": "Kathmandu"
+    }
+    },
+    "email": "nata.porto@example.com",
+    "login": {
+    "uuid": "42cd1873-d117-4bcc-9619-f7c50bb80846",
+    "username": "crazygorilla831",
+    "password": "loki",
+    "salt": "DXvdRSFa",
+    "md5": "4a49107706a81f0859635bc23f68e36c",
+    "sha1": "30d782b11a88b4e523c32bf724d09dc749735ee9",
+    "sha256": "5dc66e88a3673eb8f623bc36ebef22a0231823c6e90531e399b0cf7a27edc743"
+    },
+    "dob": {
+    "date": "1989-07-02T00:44:19.543Z",
+    "age": 31
+    },
+    "registered": {
+    "date": "2009-10-05T11:54:38.693Z",
+    "age": 11
+    },
+    "phone": "(14) 0920-2922",
+    "cell": "(06) 3840-9125",
+    "id": {
+    "name": "",
+    "value": null
+    },
+    "picture": {
+    "large": "https://randomuser.me/api/portraits/men/67.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/men/67.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/men/67.jpg"
+    },
+    "nat": "BR"
+    },
+    {
+    "gender": "female",
+    "name": {
+    "title": "Madame",
+    "first": "Maja",
+    "last": "Dupont"
+    },
+    "location": {
+    "street": {
+    "number": 1423,
+    "name": "Rue des Abbesses"
+    },
+    "city": "Eggenwil",
+    "state": "Aargau",
+    "country": "Switzerland",
+    "postcode": 6687,
+    "coordinates": {
+    "latitude": "56.2014",
+    "longitude": "118.4569"
+    },
+    "timezone": {
+    "offset": "-1:00",
+    "description": "Azores, Cape Verde Islands"
+    }
+    },
+    "email": "maja.dupont@example.com",
+    "login": {
+    "uuid": "6a160e40-3e43-41a4-a61f-2483e93c62b4",
+    "username": "bigpeacock554",
+    "password": "britney",
+    "salt": "4d0sdtfh",
+    "md5": "67d0d982c2f3851d2bef21e77de1acb0",
+    "sha1": "3b81e23fe8f506d2a8283860867d722ffa7bb679",
+    "sha256": "a6f2c42b8b3c531806f2943321a17a7d0ce261cb2317dbc1776c316ed223aa96"
+    },
+    "dob": {
+    "date": "1953-12-30T18:14:58.069Z",
+    "age": 67
+    },
+    "registered": {
+    "date": "2014-09-14T18:59:28.061Z",
+    "age": 6
+    },
+    "phone": "075 490 23 75",
+    "cell": "079 850 21 93",
+    "id": {
+    "name": "AVS",
+    "value": "756.9297.6881.47"
+    },
+    "picture": {
+    "large": "https://randomuser.me/api/portraits/women/5.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/women/5.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/5.jpg"
+    },
+    "nat": "CH"
+    },
+    {
+    "gender": "female",
+    "name": {
+    "title": "Miss",
+    "first": "Ülkü",
+    "last": "Numanoğlu"
+    },
+    "location": {
+    "street": {
+    "number": 7936,
+    "name": "Bağdat Cd"
+    },
+    "city": "Muğla",
+    "state": "Çorum",
+    "country": "Turkey",
+    "postcode": 76660,
+    "coordinates": {
+    "latitude": "-89.6193",
+    "longitude": "37.6457"
+    },
+    "timezone": {
+    "offset": "+4:30",
+    "description": "Kabul"
+    }
+    },
+    "email": "ulku.numanoglu@example.com",
+    "login": {
+    "uuid": "e0f40412-21b8-42b0-8a26-f136b8ed9031",
+    "username": "heavyzebra815",
+    "password": "123457",
+    "salt": "inAUmbVF",
+    "md5": "d50d4cc1d9c45fc78cb1934e68164291",
+    "sha1": "2df5d84c9d7a1c1f23b39cd9055ea416b1b833b3",
+    "sha256": "e1d8ea595ea4137dc01a784c8c6783b5aca0f3886a8813a3a05a73f043bbee5b"
+    },
+    "dob": {
+    "date": "1974-11-12T04:36:18.748Z",
+    "age": 46
+    },
+    "registered": {
+    "date": "2006-06-06T21:54:41.200Z",
+    "age": 14
+    },
+    "phone": "(806)-245-1737",
+    "cell": "(541)-394-8103",
+    "id": {
+    "name": "",
+    "value": null
+    },
+    "picture": {
+    "large": "https://randomuser.me/api/portraits/women/59.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/women/59.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/59.jpg"
+    },
+    "nat": "TR"
+    },
+    {
+    "gender": "female",
+    "name": {
+    "title": "Miss",
+    "first": "سارا",
+    "last": "سالاری"
+    },
+    "location": {
+    "street": {
+    "number": 3237,
+    "name": "مجاهدین اسلام"
+    },
+    "city": "مشهد",
+    "state": "خراسان جنوبی",
+    "country": "Iran",
+    "postcode": 14479,
+    "coordinates": {
+    "latitude": "80.6560",
+    "longitude": "-36.5272"
+    },
+    "timezone": {
+    "offset": "-6:00",
+    "description": "Central Time (US & Canada), Mexico City"
+    }
+    },
+    "email": "sr.slry@example.com",
+    "login": {
+    "uuid": "e3ecaec1-7cef-4ea1-acd9-3b236c30c807",
+    "username": "blackostrich951",
+    "password": "acura",
+    "salt": "oAYutU65",
+    "md5": "78930a80a37e9c837446e6ed792e0b93",
+    "sha1": "3356a2c08731d3e10536bbdadf2a24d920f35255",
+    "sha256": "bc65a3c56269b3a4855ae07bf1cd65b5b2b041072dc88b318d849fe9d29dd07e"
+    },
+    "dob": {
+    "date": "1961-05-19T05:31:13.566Z",
+    "age": 59
+    },
+    "registered": {
+    "date": "2012-12-10T13:46:32.760Z",
+    "age": 8
+    },
+    "phone": "042-83036392",
+    "cell": "0913-384-2605",
+    "id": {
+    "name": "",
+    "value": null
+    },
+    "picture": {
+    "large": "https://randomuser.me/api/portraits/women/21.jpg",
+    "medium": "https://randomuser.me/api/portraits/med/women/21.jpg",
+    "thumbnail": "https://randomuser.me/api/portraits/thumb/women/21.jpg"
+    },
+    "nat": "IR"
+    }
+    ]
