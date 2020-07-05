@@ -1,29 +1,25 @@
-import React, { Component } from "react";
-import API from "../../utils/API";
+import React from "react";
+//import API from "../../utils/API";
 
 
 function EmployeeCard(props){
 
-    return (
-        <div className="card">
-            <div className="img-container">
+    return (        
+        <div className="card my-1">
+            <div className="row">
+            <div className="img-container col-1">
                 <img alt={props.name} src={props.image} />
             </div>
-            <ul>
-                <li>
-                    <strong>Name:</strong> {props.firstName}
-                </li>
-                <li>
-                    <strong>Surname:</strong> {props.surName}
-                </li>
-                <li>
-                    <strong>Email:</strong> {props.email}
-                </li>
-                <li>
-                    <strong>Phone:</strong> {props.phone}
-                </li>
-            </ul>
-            
+            <div className="col-4 pt-2">
+                {props.firstName} {props.surName}
+            </div>
+            <div className="col-5 pt-2">
+                {props.email} 
+            </div>
+            <div className="col-2 pt-2">
+                {props.phone}    
+            </div>       
+            </div>
         </div>
     )
 }

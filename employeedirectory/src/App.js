@@ -2,20 +2,29 @@ import React, { Component } from 'react';
 import EmployeeCard from "./components/EmployeeCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import employees from "./employees.json";
+import API from "./utils/API";
 import './App.css';
 
 
 class App extends Component {
 
   state = {
-    employees
+    employees: []
   };
+
+  componentDidMount() {
+    API.getEmployees()
+      .then(res => this.setState({ employees: res.data.results }))
+      .catch(err => console.log(err));
+  };
+
+
 
   render(){
       return(
           <Wrapper>
             <Title>Employee Directory</Title>
+              <div className="container">
               {this.state.employees.map(employee => (
                 <EmployeeCard
                   image={employee.picture.thumbnail}
@@ -25,6 +34,7 @@ class App extends Component {
                   phone={employee.phone}
                 />
               ))}
+              </div>
           </Wrapper>
         );
     }
