@@ -6,18 +6,20 @@ function Header(props) {
     
     <div className="row">
     <div className="col-1">
-          <button type="submit" onClick={() => props.sortEmployee} className="sort btn btn-success">
-                     sort
-          </button>
     </div>
-    <h6 className="col-4 pt-2"> Name
-    </h6>
-    <h6 className="col-5 pt-2">
+    <h5 className="col-4"> Name
+    </h5>
+    <div className="col-5">
+    <h5 >
         Email
-    </h6>
-    <h6 className="col-2 pt-2">
+        <button type="submit" onClick={props.sortEmployee} className="sort btn btn-success float-right">
+                     sort
+        </button>
+    </h5>
+    </div>
+    <h5 className="col-2">
         Phone
-    </h6>       
+    </h5>       
     </div>
 
 

@@ -32,6 +32,8 @@ class App extends Component {
     this.setState({ employees });
   }
 
+
+  //Sort users by email address.
   sortEmployee = event => {
     event.preventDefault();
     console.log("try to sort")
@@ -64,13 +66,14 @@ class App extends Component {
               <Header
                 sortEmployee={this.sortEmployee}
               />
-              {this.state.employees.map(employee => (
+              {this.state.employees.map((employee,i) => (
                 <EmployeeCard
                   image={employee.picture.thumbnail}
                   firstName={employee.name.first}
                   surName={employee.name.last}
                   email={employee.email}
                   phone={employee.phone}
+                  key={i}
                   />
               ))}
               </div>
