@@ -1,54 +1,71 @@
-# Unit 19 React Homework: Employee Directory
 
-## Overview
+# <div align="center">React Employee Directory</div>
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+ A responsive user directory utilizing React library. The page should sort by email address and filter by name.
+ 
+*****
+## <div align="center">Table of Contents</div>
 
-## User Story
+* [Installation](https://github.com/craigfbarry/react-employee-directory#installation)
 
+* [Usage](https://github.com/craigfbarry/react-employee-directory#usage)
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+* [LIcense](https://github.com/craigfbarry/react-employee-directoryr#license)
 
-## Business Context
+* [Contributing](https://github.com/craigfbarry/react-employee-directory#contributing)
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+* [Tests](https://github.com/craigfbarry/react-employee-directory#testing-framework)
 
-## Acceptance Criteria
+* [Technologies Used](https://github.com/craigfbarry/react-employee-directory#technologies-used)
 
-Given a table of random users, when the user loads the page, a table of employees should render. 
+* [Author](https://github.com/craigfbarry/react-employee-directory#author)
 
-The user should be able to:
+* [Github URL](https://github.com/craigfbarry/react-employee-directory#github)
 
-  * Sort the table by at least one category
-
-  * Filter the users by at least one property.
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-Follow these guidelines for committing:
-
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-* Test your application before you commit to ensure functionality at every step in the development process
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
+* [Acknowledgements](https://github.com/craigfbarry/react-employee-directoryr#acknowledgements)
 
 
-## Submission on BCS
 
-You are required to submit the following:
+*****
+![React-Employee-Directory](./employeedirectory/assets/react-employee-directory.png)
 
-* the URL to the deployed application
+#### Installation
 
-* the URL to the Github repository
+        Deployed to Heroku
 
+#### Usage
+
+Uses random API randomuser.me to build user data.
+
+#### License
+
+![License Badge](https://img.shields.io/badge/Licence-mit-green)
+
+#### Contributing
+
+None
+
+#### Testing framework
+
+        None
+
+#### Technologies used
+
+        React Axios Bootstrap
+
+#### Author
+
+<img src="https://avatars0.githubusercontent.com/u/59948059?v=4" alt="avatar" width="100" height="100">
+
+[@craigfbarry](https://github.com/craigfbarry/)
+
+#### Github URL
+
+https://github.com/craigfbarry/react-employee-directory
+
+#### Acknowledgements
+
+None
+
+
+    
