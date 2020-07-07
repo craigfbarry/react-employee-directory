@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import EmployeeCard from "./components/EmployeeCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import SearchForm from "./components/SearchForm";
 import Header from "./components/Header";
 import API from "./utils/API";
 import './App.css';
@@ -10,6 +11,7 @@ import './App.css';
 class App extends Component {
 
   state = {
+    search: "",
     employees: []
   };
 
@@ -19,15 +21,35 @@ class App extends Component {
       .catch(err => console.log(err));
   };
 
-  filterEmployee = email =>{
-    const employees = this.state.employees.filter(employee => employee.email == email);
+  handleInputChange = event => {
+    this.setState({search: event.target.value});
+    //console.log(this.state.search)
+  };
+
+
+  filterEmployee = ()=> {
+    const employees = this.state.employees.filter(employee => employee.name.first.toLowerCase().includes(this.state.search.toLowerCase()));
     this.setState({ employees });
   }
 
+  sortEmployee = event => {
+    event.preventDefault();
+    console.log("try to sort")
+      const employees = this.state.employees.sort(function(a,b){
+      let nameA = a.email.toUpperCase(); // ignore upper and lowercase
+      let nameB = b.email.toUpperCase(); // ignore upper and lowercase
+      if (nameA < nameB) {
+        return -1;
+      }
+      if (nameA > nameB) {
+        return 1;
+      }    
+      // names must be equal
+      return 0;
 
-
-
-
+    })
+    this.setState({ employees });
+  }
 
   render(){
       return(
@@ -35,10 +57,15 @@ class App extends Component {
             <Title>Employee Directory</Title>
             
               <div className="container">
-              <Header></Header>
+              <SearchForm
+                handleInputChange={this.handleInputChange}
+                filterEmployee={this.filterEmployee}            
+              />              
+              <Header
+                sortEmployee={this.sortEmployee}
+              />
               {this.state.employees.map(employee => (
                 <EmployeeCard
-                  filterEmployee={this.filterEmployee}
                   image={employee.picture.thumbnail}
                   firstName={employee.name.first}
                   surName={employee.name.last}

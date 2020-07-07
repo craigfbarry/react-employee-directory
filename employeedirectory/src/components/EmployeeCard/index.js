@@ -1,5 +1,4 @@
 import React from "react";
-//import API from "../../utils/API";
 
 
 function EmployeeCard(props){
@@ -14,10 +13,10 @@ function EmployeeCard(props){
                     {props.firstName} {props.surName}
                  </div>
                 <div className="col-5 pt-2">
-                    {props.email} 
-                    <button onClick={() => props.filterEmployee(props.email)} className="filter">
+                    {props.email}  
+                    {/*<button onClick={() => props.filterEmployee(props.email)} className="filter btn btn-success float-right">
                      filter
-                    </button>
+                    </button>*/}
                 </div>
                 <div className="col-2 pt-2">
                     {props.phone}    

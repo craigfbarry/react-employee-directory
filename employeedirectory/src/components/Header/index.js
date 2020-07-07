@@ -5,7 +5,11 @@ function Header(props) {
   return (
     
     <div className="row">
-    <div className="col-1"></div>
+    <div className="col-1">
+          <button type="submit" onClick={() => props.sortEmployee} className="sort btn btn-success">
+                     sort
+          </button>
+    </div>
     <h6 className="col-4 pt-2"> Name
     </h6>
     <h6 className="col-5 pt-2">
