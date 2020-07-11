@@ -23,15 +23,16 @@ class App extends Component {
 
   handleInputChange = event => {
     this.setState({search: event.target.value});
-    console.log(this.state.search)
+    const employees = this.state.employees.filter(employee => employee.name.first.toUpperCase().includes(this.state.search.toUpperCase()));
+    this.setState({ employees });
   };
 
  
-  filterEmployee = ()=> {
-    
-    const employees = this.state.employees.filter(employee => employee.name.first.toUpperCase().includes(this.state.search.toUpperCase()));
-    this.setState({ employees });
-  }
+  //filterEmployee = ()=> {
+  //  
+  //  const employees = this.state.employees.filter(employee => employee.name.first.toUpperCase().includes(this.state.search.toUpperCase()));
+  //  this.setState({ employees });
+ // }
 
 
   //Sort users by email address.
@@ -66,8 +67,7 @@ class App extends Component {
                 sortEmployee={this.sortEmployee}
               />
               {this.state.employees.map((employee,i) => (
-                <EmployeeCard
-                  filterEmployee={this.filterEmployee}  
+                <EmployeeCard 
                   image={employee.picture.thumbnail}
                   firstName={employee.name.first}
                   surName={employee.name.last}
